@@ -57,6 +57,9 @@ h1 {
   max-width: 98%;
   font-family: 'Playfair display', serif;
   color: black;
+  white-space: nowrap; 
+  overflow: hidden;
+  padding-bottom: 0.5em;
 }
 p {
   max-width: 60ch;
