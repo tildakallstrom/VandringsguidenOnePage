@@ -34,3 +34,11 @@ $(document).ready(function(){
     $("#content").hide();
   });
 });
+
+$(document).ready(function(){
+  //Ändra text med ett knapptryck
+  $("#change-text-button").click(function(){
+    //texten ändras till hejdå
+    $("#text-content").text("HEJDÅ.");
+  });
+});
