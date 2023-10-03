@@ -70,15 +70,33 @@
       </div>
    </div> 
    <div class="wrapperabout">
-    <div class="widgetss" id="about">  
-       <article class="widget1">
-           <h2 class="widgeth">Vädret</h2>
-   <a target="_blank" href="https://booked.se/weather/nikkaluokta-387222,267340,17259,40190,265039"><img src="https://w.bookcdn.com/weather/picture/2_387222,267340,17259,40190,265039_1_11_009fa0_350_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=577&anc_id=52355" class="weather" alt="booked.net"/></a>
+    <div id="about">  
+       <article>
+        <h2 class="infoh">Starten på vår resa</h2>
+        <p class="infop">Vandringsguiden är ett företag som startade 2018. Anledningen till att vi startade detta företag är för att vi ville dela med oss 
+            av Sveriges vackraste vandringsställen. 
+        </p>
+        <p class="infop">Idag är vi på Vandringsguiden hela tio personer med hemvist på olika orter runtom i landet.
+            Varje år åker vi alla ut på minst en vandringsresa i månaden som vi sedan recenserar och visar bilder från 
+            här på hemsidan.
+        </p>
+        <div class="my-div">Det här är en div.</div>
+
+<button id="change-css">Ändra CSS</button>
 </article>
        
-       <article class="widget3">
-           <h2 class="widgeth">Hitta</h2>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5879.565563224682!2d18.33358534462459!3d68.3823713261735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45da4ca72a2f3ff9%3A0x399ccddbcba49b1f!2sRissajaure!5e0!3m2!1ssv!2sse!4v1608030755664!5m2!1ssv!2sse"  class="map" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       <article>
+        <h2 class="infoh">Kontakta oss gärna!</h2>
+        <form action="mailto:tildakallstrom@gmail.com" method="post" enctype="text/plain">
+            <p><label>Namn:<br>
+            <input type="text" name="name" placeholder="Förnamn Efternamn"></label><br></p>
+            <p><label>E-mail:<br>
+            <input type="text" name="mail" placeholder="example@email.com"></label><br></p>
+            <p><label>Meddelande:<br>
+            <textarea rows="5" cols="20" name="beskrivning" class="textarea" placeholder="Beskriv ditt ärende här"></textarea></label></p>
+      
+                 <input type="submit" name="skicka" value="Skicka"> <input type="reset" value="Återställ">
+            </form>
        </article>
    </div>
 </div>
@@ -97,6 +115,8 @@
 </div>
 
 <footer class="footermobile">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     © Copyright 2023 Tilda Källström 
 </footer>
         <footer class="footerdesktop">
