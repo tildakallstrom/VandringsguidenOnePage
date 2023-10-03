@@ -42,3 +42,15 @@ $(document).ready(function(){
     $("#text-content").text("HEJDÅ.");
   });
 });
+
+$(document).ready(function(){
+  //lägg till class till element
+  $("#add-class-button").click(function(){
+    //lägg till class highlight
+    $("#class-example").addClass("highlight");
+  });
+  $("#remove-class-button").click(function(){
+    //ta bort class
+    $("#class-example").removeClass("highlight");
+  });
+});
