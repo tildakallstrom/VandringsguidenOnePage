@@ -22,3 +22,15 @@ $(document).ready(function(){
   }
   startTextAnimation();
 });
+
+$(document).ready(function(){
+  //Visa/dölj väderwidget med knappar
+  $("#show-button").click(function(){
+    //visa content
+    $("#content").show();
+  });
+  $("#hide-button").click(function(){
+    //dölj content
+    $("#content").hide();
+  });
+});
